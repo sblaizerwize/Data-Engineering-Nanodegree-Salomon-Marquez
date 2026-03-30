@@ -56,7 +56,7 @@ The proposed solution in this repository consists of migrating source data in JS
 
 The star schema that the Sparkify database follows is described in Figure 1. It consists of a FACT table surrounded by DIMENSION tables that contain data attributes. A star schema is simple to implement because data located in fact tables is not normalized. Also, this schema fosters data fetching by performing direct join operations among the dimension tables and the fact table. 
 
-![sparkify schema](/images/sparkify_schema.png)
+![sparkify schema](images/sparkify_schema.png)
 **Figure 1** Sparkify star schema design.
 <br />
 

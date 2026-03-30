@@ -50,7 +50,7 @@ JSON file containing user logs information.
 
 The proposed solution in this repository consists of implementing an ETL migration process. The ETL is orchestrated by a Spark job that runs in an AWS EMR cluster. The aim of the job is to pull source data from a S3 bucket, transform it following a star schema design, and save it in a distinct S3 bucket in parquet format, see **Figure 1**. 
 
-![sparkify architecture](/images/sparkify_emr.png)
+![sparkify architecture](images/sparkify_emr.png)
 **Figure 1** Architecture of the Data Lake Project.
 <br />
 
@@ -62,7 +62,7 @@ The following steps describe the main stages of the spark job:
   - Save the dataframes in a S3 bucket using a parquet format. \
   **Note:** To optimize analytics, data can be partitioned by year, month, or artist, if required.  
 
-![sparkify schema](/images/sparkify_emr_schema.png)
+![sparkify schema](images/sparkify_emr_schema.png)
 **Figure 2** Schema of the Data Lake.
 <br />
 

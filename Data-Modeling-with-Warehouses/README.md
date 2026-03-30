@@ -50,7 +50,7 @@ JSON file containing user logs information.
 
 The proposed solution in this repository consists of a two-step migration process, see Figure 1. The first stage named **staging** extracts source data from the S3 bucket and loads it into an AWS Redshift cluster. Data is loaded into two staging tables. The second stage consists of a SQL-to-SQL ETL that extracts, transforms, and loads staging data into tables complying with a star schema design. The star schema  consists of a FACT table surrounded by DIMENSION tables that contain data attributes. A star schema is simple to implement because data located in fact tables is not normalized. Also, this schema fosters data fetching by performing direct join operations among the dimension tables and the fact table. 
 
-![sparkify schema](/images/migration.png)
+![sparkify schema](images/migration.png)
 **Figure 1** Design of the AWS Datawarehouse.
 <br />
 

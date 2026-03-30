@@ -4,7 +4,7 @@
 
 Sparkify is a digital music application that enables users to listen to music online. Currently, the application aims to offer new content to users based on their song preferences. However, the information related to users and their activity are stored in CSV files, see Figure 1, which avoids querying data and therefore running analytics on it. 
 
-![sparkify schema](/images/image_event_datafile_new.jpg)
+![sparkify schema](images/image_event_datafile_new.jpg)
 **Figure 1** Example of CSV file content.
 <br />
 
